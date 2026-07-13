@@ -4,6 +4,34 @@ A console-based Library Management System developed using **Java**, **JDBC**, an
 
 ---
 
+## Application Screenshots
+
+### Main Menu
+
+![Main Menu](Screenshots/main-menu.png)
+
+---
+
+### Adding Books and Members
+
+![Add Book](Screenshots/add-book.png)
+
+---
+
+![Add Member](Screenshots/add-member.png)
+
+---
+
+### Borrowing and Returning Books
+
+![Borrow Return](Screenshots/borrow-return.png)
+
+---
+
+### Viewing Transactions
+
+![Transactions](Screenshots/view-transactions.png)
+
 ## Features
 
 ### Books Management
@@ -80,8 +108,15 @@ A console-based Library Management System developed using **Java**, **JDBC**, an
 
 ## Project Structure
 
-```
-LibraryManagementSystem
+```text
+Library Management System
+│
+├── Screenshots
+│   ├── main-menu.png
+│   ├── add-book.png
+│   ├── add-member.png
+│   ├── borrow-return.png
+│   └── view-transactions.png
 │
 ├── src
 │   └── library
@@ -89,12 +124,16 @@ LibraryManagementSystem
 │           └── system
 │               └── LibraryManagementSystem.java
 │
+├── test
+│
+├── nbproject
+│
+├── build.xml
+├── manifest.mf
 ├── librarydb.sql
 ├── README.md
 └── .gitignore
 ```
-
----
 
 ## Database Schema
 

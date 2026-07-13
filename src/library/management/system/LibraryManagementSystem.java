@@ -14,7 +14,7 @@ public class LibraryManagementSystem {
 
     static final String user = "root";
 
-    static final String password = "mysqlroot";
+    static final String password = "YOUR_PASSWORD";
 
     public static void main(String[] args) {
 
